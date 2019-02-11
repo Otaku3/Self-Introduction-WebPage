@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+header {
+    background: #fff url(img/IMG_5529.JPG) 0 0 no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    overflow: hidden;
+}
+
+header h1 {
+    color: #ffffee;
+    font-size: 70px;
+    /*    font-family: lobster;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    height: 150px;
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.page-title {
+    border-bottom: solid #ffffee 5px;
+}
+
+header p {
+    color: #ffffee;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blink-btn {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    margin: 16px auto;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    border: solid 4px #fff;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.4s;
+    animation: blink-effect 0.8s infinite alternate;
+}
+
+.blink-btn:hover {
+    /*    transition: 0.4s;*/
+    animation: none;
+    background: #e5ab47;
+    border-color: #e5ab47;
+    color: #fff;
+}
+
+@keyframes blink-effect {
+    0% {
+        color: #fff;
+    }
+
+    100% {
+        color: #000;
+    }
+}
+
+nav {
+    background-color: #003377;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #ffcc11;
+}
+
+nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.title {
+    font-size: 35px;
+    border-left-style: solid;
+    border-left-color: #003377;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.intro {
+    /*    background-color: #e5ab47;*/
+    color: #003377;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #ffffff;
+    background: #e5ab47;
+    /*    padding: 20px;*/
+    line-height: 50px;
+}
+
+.intro img {
+    height: 500px;
+    float: right;
+}
+
+.intro div {
+    background: #e5ab47;
+    padding: 30px;
+    margin: 0 40px;
+    border-radius: 30px;
+    width: 80%;
+    height: 500px;
+    float: left;
+}
+
+.mike {
+    text-decoration: line-through;
+}
+
+.leaders {
+    /*    background-color: #e5ab47;*/
+    color: #003377;
+    padding: 30px;
+}
+
+.leaders p {
+    font-size: 20px;
+    background: #e5ab47;
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px;
+    height: 120px;
+    line-height: 40px;
+    border-radius: 30px;
+}
+
+.likes {
+    /*    background-color: #e5ab47;*/
+    padding: 30px;
+    color: #003377;
+    padding: 30px;
+    height: 580px;
+    /*    background-image: url(img/wood.jpg);*/
+}
+
+.likes .content {
+    float: left;
+    padding: 20px;
+    height: 450px;
+    width: 400px;
+    background: #e5ab47;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.likes .content h3 {
+    margin-left: 0px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    /*    color: #ffffff;*/
+}
+
+.likes .content p {
+    height: 100px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.img-box {
+    text-align: center;
+}
+
+.message {
+    color: #003377;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.message p {
+    font-size: 20px;
+    background: #e5ab47;
+    color: #ffffff;
+    padding: 20px;
+    margin: 30px;
+    height: 100px;
+    line-height: 50px;
+    border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background: #003377;
+}
